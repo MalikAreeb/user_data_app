@@ -1,16 +1,36 @@
-# user_data
+# User Data - Flutter App
 
-A new Flutter project.
+User Data is a Flutter app that fetches and displays a list of users and their details from the JSONPlaceholder API. The app uses a Data UI and Network approach to fetch and display data. It incorporates Provider for state management and http for making API calls with custom exception handling.
 
-## Getting Started
+# Features
 
-This project is a starting point for a Flutter application.
+. Fetches user data from JSONPlaceholder API.
+. Local search functionality to filter users by name.
+. Provider for state management.
+. API calls with the http package.
+. Custom exception handling for network errors.
 
-A few resources to get you started if this is your first Flutter project:
+# Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Clone the repository:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+git clone https://github.com/yourusername/user_data.git
+cd user_data
+
+2. Install dependencies:
+
+flutter pub get
+Run the app: flutter run
+
+# Key Components
+
+Data UI Approach: Displays fetched user data in a clean, user-friendly interface.
+Network Approach: Fetches data from the public JSONPlaceholder API.
+Provider: Used for state management to handle loading states, user data, and errors.
+
+# Screenshots
+
+![App Screenshot 1](asset/screenshots/ss_1.jpeg)
+![App Screenshot 2](asset/screenshots/ss_2.jpeg)
+![App Screenshot 3](asset/screenshots/ss_3.jpeg)
+![App Screenshot 4](asset/screenshots/ss_4.jpeg)
