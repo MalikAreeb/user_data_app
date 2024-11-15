@@ -14,7 +14,7 @@ User Data is a Flutter app that fetches and displays a list of users and their d
 
 1. Clone the repository:
 
-git clone https://github.com/yourusername/user_data.git
+git clone https://github.com/MalikAreeb/user_data_app.git
 cd user_data
 
 2. Install dependencies:
